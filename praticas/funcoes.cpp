@@ -3,9 +3,14 @@
 using namespace std;
 
 // funcoes do tipo void nao possuem nenhum retorno, podem ser usadas apenas para imprimir algo
+
+// Podemos definir tambem constantes, utilizando o comando define
+
+#define pi 3.14;
+
 void inscrever(){
 
-    cout << "Se inscreva no canal do\n professor Douglas Maioli!";
+    cout << "Se inscreva no canal do\n professor Douglas Maioli!\n";
 
 }
 
@@ -23,6 +28,9 @@ int main(){
     int a=5, b=4;
     int s;
     s = somar(a, b);
+    cout << "Soma: " << s << endl;
+
+    cout << pi;
 
     return 0;
 
